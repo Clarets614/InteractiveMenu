@@ -1,0 +1,38 @@
+.redoutline {
+ background-color: rgb(78, 86, 128);
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.innerwhitebox {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.columntitle {
+    font-weight: bold;
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    margin: 0 auto;
+}
+
+.soldOut {
+    color: red;
+}
+.soldOut::after{
+    content: "(Sold Out)";
+    text-decoration: none;
+}
