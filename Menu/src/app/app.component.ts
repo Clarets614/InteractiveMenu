@@ -85,9 +85,6 @@ export class AppComponent {
   addToOrder(price:number):void{
     this.total += price;
     this.displayTY = false;
-    if(this.total == 69){
-      console.log("nice")
-    }
   }
 
   resetOrder():void{
